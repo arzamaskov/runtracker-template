@@ -16,7 +16,7 @@ final class User
         private readonly UserId $id,
         private Email $email,
         private ?string $password = null,
-        private array $roles = [],
+        private array $roles = ['ROLE_USER'],
     ) {
     }
 
